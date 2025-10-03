@@ -1,12 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Inicio</title>
+    <title>Westeros Blog</title>
+    <style>
+        body {
+            font-family: 'Trajan Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header {
+            background-image: url('https://lossietereinos.com/wp-content/uploads/2012/10/Rocadrag%C3%B3n.jpg'); /* Fondo del blog */
+            background-size: cover;
+            background-position: center;
+            background-color: grey;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 300px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: rgb(47, 47, 47);
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer nav ul li a {
+            color: #eaeced;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Header de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes.html">Quiénes somos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Westeros Blog</h1>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section class="intro">
+            <h2>Bienvenidos al blog de curiosidades de Game of Thrones</h2>
+            <p>Explora los secretos, teorías y detalles ocultos del universo de Westeros. Este blog está dedicado a fans que quieren saber más allá de lo que muestra la serie.</p>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <h3>¿Sabías que...</h3>
+                <p>La frase “Dracarys” significa “fuego de dragón” en Alto Valyrio, y fue inventada para la serie por el lingüista David J. Peterson.</p>
+            </div>
+
+            <div class="card">
+                <h3>El trono de hierro</h3>
+                <p>En los libros, el Trono de Hierro es mucho más grande e imponente que el de la serie. Se supone que es tan peligroso que ha herido a varios reyes.</p>
+            </div>
+
+            <div class="card">
+                <h3>Actores y spoilers</h3>
+                <p>Kit Harington (Jon Snow) tuvo que mantener en secreto su "resurrección" durante casi un año antes del estreno de la sexta temporada.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+<footer>
+        <p><strong>Autores:</strong> Joana Barbosa, Karen Nava, Deyanira Ruiz, Veaney Vargas, Brad Robles, Ricardo de Jesús, Ricardo Avilés y Omar Albis</p>
+        <p><strong>Correo del equipo:</strong> equipoGOT@correo.com</p>
+        <p><strong>Proyecto:</strong> Westeros Blog</p>
+    </footer>
+
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
