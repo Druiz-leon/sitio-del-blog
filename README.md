@@ -23,10 +23,15 @@
 
 Aquí tienes una pequeña muestra de cómo luce nuestro rincón en la web.
 
-| Página Principal                                   | Quiénes Somos                          | Contacto                               |
-| :------------------------------------------------: | :------------------------------------: | :------------------------------------: |
-| *Una bienvenida al mundo de hielo y fuego.* | *Conoce al equipo detrás del blog.* | *Envíanos un cuervo con tus mensajes.* |
-| <img src="https://i.imgur.com/G5gDk2C.png" width="300"/> | <img src="https://i.imgur.com/g74W0QO.png" width="300"/> | <img src="https://i.imgur.com/f96Wl0q.png" width="300"/> |
+| Página Principal                       | 
+<img width="1887" height="923" alt="C77CD49E-D382-4F56-91C2-8B3C307D4D72" src="https://github.com/user-attachments/assets/40a44c44-779d-401c-b730-d487857481c0" />
+
+| Quiénes Somos                          | 
+<img width="1920" height="1059" alt="4EB6F1C4-1CDD-40CC-BB14-31C1C81E1B9B" src="https://github.com/user-attachments/assets/b88cbbc0-fbc3-415d-93d0-9ccdb47af92b" width="300"  />
+
+| Contacto                               |
+<img width="1581" height="785" alt="6DCEC56F-A4C6-4A60-93A9-B3B69EEAB590" src="https://github.com/user-attachments/assets/165fcd64-1f83-4f76-9149-1500d2f048f5" width="300" />
+
 
 ---
 
